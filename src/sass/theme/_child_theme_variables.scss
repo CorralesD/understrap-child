@@ -3,5 +3,11 @@
 // Just copy a variable from src/sass/assets/bootstrap5/_variables.scss, paste it here and edit the value.
 
 
-$purple: #5533ff; // Thats a sample how you could change a BootStrap variable.
-$primary: $purple;  // Once we've changed the value, we'll also make it the primary brand color.
+$sandiegobayblue400: #004B8A; // Thats a sample how you could change a BootStrap variable.
+$primary: $sandiegobayblue400; // Once we've changed the value, we'll also make it the primary brand color.
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+$Inter: "Inter", sans-serif;
+$Lora: "Lora", serif;

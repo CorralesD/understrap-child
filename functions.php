@@ -92,3 +92,37 @@ function understrap_child_customize_controls_js() {
 	);
 }
 add_action( 'customize_controls_enqueue_scripts', 'understrap_child_customize_controls_js' );
+
+
+function cosd_features() {
+	register_nav_menu('departmentPageMenuLocation', 'Department Landing Page');
+	register_nav_menu('servicesMenuLocation', 'Services Menu');
+}
+
+add_action('after_setup_theme', 'cosd_features');
+
+add_filter('wp_nav_menu_objects', 'my_wp_nav_menu_objects', 10, 2);
+
+function my_wp_nav_menu_objects( $items, $args ) {
+    
+    // loop
+    foreach( $items as &$item ) {
+        
+        // vars
+        $icon = get_field('services_menu_icon', $item);
+        
+        
+        // append icon
+        if( $icon ) {
+            
+            $item->title .= $icon;
+            
+        }
+        
+    }
+    
+    
+    // return
+    return $items;
+    
+}

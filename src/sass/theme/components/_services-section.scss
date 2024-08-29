@@ -1,0 +1,107 @@
+.section_services {
+	background-color: #f5f5f7;
+
+	h2 {
+		color: var(--San-Diego-Bay-Blue-sdblue-800, #002b4c);
+
+		/* Serif Heading/Serif Header H2 */
+		font-family: $Lora;
+		font-size: 32px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 42px; /* 131.25% */
+		margin-left: 24px;
+		margin-bottom: 24px;
+	}
+
+	.btn-primary {
+		border-radius: 8px;
+		background: var(--San-Diego-Bay-Blue-sdblue-400, #1562a1);
+		min-width: 80px;
+		padding: 12px 16px;
+	}
+
+	.wp-block-navigation ul {
+		display: flex;
+		align-items: flex-start;
+		gap: 32px;
+		align-self: stretch;
+	}
+
+	.wp-block-navigation ul li {
+		border-radius: 16px;
+		border-left: 4px solid var(--Mountain-Shadow-Grey-msgrey-50, #e2e2e7);
+		background: var(--Mountain-Shadow-Grey-white, #fff);
+
+		/* Bodered shadow */
+		box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.55);
+		display: flex;
+		width: 349px;
+		padding: 24px;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		gap: 8px;
+		align-self: stretch;
+	}
+
+	.wp-block-navigation ul li a {
+		color: var(--San-Diego-Bay-Blue-sdblue-500, #0f5b9b) !important;
+
+		/* Heading/H3 */
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: normal;
+		letter-spacing: -0.2px;
+	}
+
+	span:before {
+		font-size: 2em;
+		font-family: FontAwesome;
+		font-style: normal;
+		font-weight: 400;
+		text-decoration: inherit;
+		margin-right: 16px;
+	}
+
+	// .adopt span:before {
+	// 	content: "\e59d";
+	// }
+
+	// .passport span:before {
+	// 	content: "\f5ab";
+	// }
+
+	// .flood span:before {
+	// 	content: "\e50e";
+	// }
+
+	// .person-walking span:before {
+	// 	content: "\e553";
+	// }
+
+	// .carriage span:before {
+	// 	content: "\f77d";
+	// }
+
+	// .tower span:before {
+	// 	content: "\f519";
+	// }
+
+	// .cap span:before {
+	// 	content: "\f19d";
+	// }
+
+	// .stamp span:before {
+	// 	content: "\f5bf";
+	// }
+
+	// .clipboard span:before {
+	// 	content: "\f46d";
+	// }
+
+	// .fire-ext span:before {
+	// 	content: "\f134";
+	// }
+}

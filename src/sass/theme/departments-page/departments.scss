@@ -1,0 +1,121 @@
+#department-page {
+  .cta-bg {
+    background: var(--Mountain-Shadow-Grey-msgrey-0, #f5f5f7);
+  }
+
+  .cta {
+    display: flex;
+    padding: 40px 165px;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+  }
+
+  .department-menu {
+    display: flex;
+    height: 48px;
+    align-items: center;
+    gap: 16px;
+    background: var(--San-Diego-Bay-Blue-sdblue-400, #1562a1);
+
+    .nav-item {
+      display: flex;
+      padding: 12px;
+      align-items: center;
+      gap: 12px;
+
+      .nav-link {
+        color: var(--Mountain-Shadow-Grey-white, #fff);
+        // font-family: Lora;
+        font-size: 16px;
+        font-style: normal;
+        line-height: 24px; /* 150% */
+        font-weight: 300;
+      }
+    }
+  }
+
+  #department-page-hero {
+    background: var(
+      --Grad-Dark-Blue,
+      linear-gradient(90deg, #001b38 0%, #004b8a 100%)
+    );
+
+    .title {
+      color: var(--Mountain-Shadow-Grey-white, #fff);
+
+      /* Serif Heading/Serif Header H1 */
+      font-family: Lora;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 50px; /* 125% */
+    }
+
+    .text {
+      color: var(--Mountain-Shadow-Grey-white, #fff);
+
+      /* Body/16px/16 Regular */
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; /* 150% */
+    }
+
+    figure {
+      margin: 0;
+    }
+  }
+
+  #department-page-services {
+    background: var(--Mountain-Shadow-Grey-msgrey-0, #f5f5f7);
+    padding: 20px 0;
+
+    .services-container {
+      padding: 32px 0;
+
+      a {
+        text-decoration: none;
+      }
+
+      .card {
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        flex: 1 0 0;
+        align-self: stretch;
+        border-radius: 16px;
+        border-left: 4px solid var(--Mountain-Shadow-Grey-msgrey-50, #e2e2e7);
+        background: var(--Mountain-Shadow-Grey-white, #fff);
+
+        .card-title {
+          color: var(--San-Diego-Bay-Blue-sdblue-500, #0f5b9b);
+
+          /* Heading/H3 */
+          font-family: Inter;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          letter-spacing: -0.2px;
+          flex: 1 0 0;
+        }
+
+        .card-text {
+          color: var(--Mountain-Shadow-Grey-msgrey-800, #242427);
+
+          /* Body/16px/16 Regular */
+          font-family: Inter;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px; /* 150% */
+          align-self: stretch;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+#search-wrapper {
+	background: var(--Mountain-Shadow-Grey-white, #fff);
+
+	.page-banner {
+		display: flex;
+		align-items: center;
+		background: var(
+			--Grad-Dark-Blue,
+			linear-gradient(90deg, #001b38 0%, #004b8a 100%)
+		);
+		padding: 32px;
+		margin-bottom: 50px;
+
+		h1 {
+			color: var(--Mountain-Shadow-Grey-white, #fff);
+			align-self: stretch;
+			/* Serif Heading/Serif Header H1 */
+			font-family: $Lora;
+			font-size: 40px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 50px; /* 125% */
+		}
+	}
+
+	#primary {
+		max-width: 66.66666667%;
+	}
+}

@@ -1,0 +1,44 @@
+.homepage-hero {
+	height: 360px;
+	background: $sandiegobayblue400;
+
+	.wp-block-media-text__content {
+		background: var(
+		--Grad-Dark-Blue,
+		linear-gradient(90deg, #001b38 0%, #004b8a 100%)
+	);
+	}
+
+	.hero-content {
+		display: flex;
+		padding: 6em;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		align-self: stretch;
+	}
+
+	h2 {
+		color: var(--Mountain-Shadow-Grey-white, #fff);
+		font-family: $Lora;
+		/* Serif Heading/Serif Header H1 */
+		font-size: 40px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 50px; /* 125% */
+	}
+
+	h6 {
+		color: var(--Mountain-Shadow-Grey-white, #fff);
+		font-family: $Inter;
+		/* Body/16px/16 Regular */
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+	}
+
+	p {
+		color: #ffcb2d;
+		font-weight: bold;
+	}
+}
